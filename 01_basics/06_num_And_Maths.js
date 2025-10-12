@@ -38,12 +38,12 @@ const other = 123.8966
 
 
 console.log(Math.random())
-console.log(Math.random()*6 ) // any value from 0 to 6
-console.log((Math.random()*10)+1) // min value is 1 
+console.log(Math.random() * 6) // any value from 0 to 6
+console.log((Math.random() * 10) + 1) // min value is 1 
 
-console.log(Math.floor(Math.random()*10)+1) // rounds off
+console.log(Math.floor(Math.random() * 10) + 1) // rounds off
 
 const min = 10
 const max = 20
 
-console.log(Math.random())
+console.log(Math.floor(Math.random() * (max - min + 1)+ min))
