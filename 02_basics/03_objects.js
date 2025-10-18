@@ -18,8 +18,7 @@ const JsUser2 =
     lastLoginDays : ["Monday","Saturday"]
 }
 
-
-
+// console.log("hiii")
 console.log(JsUser2.age) // isse better way niche vala h 
 console.log(JsUser2["age"])
 console.log(JsUser2["location"])
